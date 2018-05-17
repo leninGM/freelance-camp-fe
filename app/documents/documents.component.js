@@ -20,7 +20,7 @@ var DocumentsComponent = (function () {
     }
     DocumentsComponent.prototype.ngOnInit = function () {
         var _this = this;
-        var timer = Rx_1.Observable.timer(0, 5000);
+        var timer = Rx_1.Observable.timer(0, 35000);
         timer.subscribe(function () { return _this.getDocuments(); });
     };
     DocumentsComponent.prototype.getDocuments = function () {
